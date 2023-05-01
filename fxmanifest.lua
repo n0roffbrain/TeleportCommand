@@ -1,24 +1,20 @@
-client_script '@Xo.Brain/Shared/xGuardPlayer.lua'
+--[[
+
+    💬 Export from Jxrwynd => discord:[ !🧠jxrwynd.exe#9597 || https://discord.gg/s8sf82NFRW ] 
+
+    ☕ Thanks For Coffee Tips 
+
+]]--
+
 fx_version 'adamant'
-games { 'gta5'}
-author 'NixR DEV'
+game 'gta5'
 
-ui_page 'Interface/index.html'
-
-client_scripts {
-    'Setting/Setting.lua',
-    'Source/Client/Client.lua'
-}
-
-server_scripts {
-    'Setting/Setting.lua',
-    'Source/Server/Server.lua'
-}
+author '🧠Jxrwynd Studio'
+version '1.0' 
 
 
-file {
-    'Interface/index.html',
-    'Interface/nixr.js',
-    'Interface/ui.css',
-    'Interface/icon.css',
-}
+client_scripts { 
+	'setting.lua',
+	'cl_func.lua',
+	'Sources/code_cl.lua'
+} 
